@@ -1,0 +1,103 @@
+#contenedor{
+    
+    width: 1000px;
+    height: 1600px;
+    margin: 20px auto;
+}
+header h1{
+    font-size: 70px;
+}
+header{
+    width: 1000px;
+    height: 250px;
+    background-color: white;
+    text-align: center;
+}
+header nav{
+    display: flex;
+    
+    
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    
+    
+}
+header a{
+    text-decoration: none;
+    color: orange;
+}
+header li{
+    padding-left: 25px;
+    transform: translate(220px);
+    
+}
+nav a:hover{
+    opacity: 0.75;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+    background: linear-gradient(120deg, rgb(241, 193, 102), white);
+    height: 1200px
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    transform: translate(70px,50px);
+    width: 60%;
+    
+    
+    
+}
+th,td{
+    
+    border: 1px solid black;
+    padding: 10px;
+}
+#formulario{
+    transform:translate(80px,35px);
+}
+#buttom{
+    justify-content: center;
+}
+
+select{
+    width: 190px;
+}
+input{
+    width: 230px;
+    padding: 5px;  
+    
+}
+
+#botones input{
+    padding: 7px;
+    margin-top: 20px;
+    width: 245px;
+    background-color: red;
+}
+#mapa{
+    
+    transform: translate(190px,5px);
+}
+footer{
+    background-color: white;
+}
+footer li{
+    list-style-type: none;
+    transform: translate(360px);
+    margin-top: 25px;
+    padding-left: 15px;
+}
+footer ul{
+    display: flex;
+    
+    
+}
+footer a:hover{
+    opacity: 0.75;
+}
